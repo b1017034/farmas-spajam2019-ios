@@ -30,6 +30,7 @@
 		413025852286B1280010453B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025842286B1280010453B /* TimelineViewController.swift */; };
 		4130258B2286C94A0010453B /* GutiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4130258A2286C94A0010453B /* GutiView.xib */; };
 		4130258D2286C9540010453B /* GutiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130258C2286C9540010453B /* GutiView.swift */; };
+		4130258F22873B170010453B /* horizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130258E22873B170010453B /* horizontalScrollView.swift */; };
 		7E900E48B3C4B582075B143D /* Pods_sajam2019_iodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830F3516BE6A84C53893A0BE /* Pods_sajam2019_iodUITests.framework */; };
 		7F88F6E19C19828BB831D779 /* Pods_sajam2019_iod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75A6DBC684FAE1DA763A3D /* Pods_sajam2019_iod.framework */; };
 /* End PBXBuildFile section */
@@ -80,6 +81,7 @@
 		413025842286B1280010453B /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		4130258A2286C94A0010453B /* GutiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GutiView.xib; sourceTree = "<group>"; };
 		4130258C2286C9540010453B /* GutiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GutiView.swift; sourceTree = "<group>"; };
+		4130258E22873B170010453B /* horizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontalScrollView.swift; sourceTree = "<group>"; };
 		5D1752F54A911C0DDF02846A /* Pods-sajam2019_iodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.release.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.release.xcconfig"; sourceTree = "<group>"; };
 		73435FB97AD3E2F3E19B8908 /* Pods-sajam2019_iod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iod.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod.debug.xcconfig"; sourceTree = "<group>"; };
 		78E9E18C328903673DE323B3 /* Pods-sajam2019_iodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				413025842286B1280010453B /* TimelineViewController.swift */,
 				4130258A2286C94A0010453B /* GutiView.xib */,
 				4130258C2286C9540010453B /* GutiView.swift */,
+				4130258E22873B170010453B /* horizontalScrollView.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4130258D2286C9540010453B /* GutiView.swift in Sources */,
+				4130258F22873B170010453B /* horizontalScrollView.swift in Sources */,
 				413025832286B11C0010453B /* MypageViewController.swift in Sources */,
 				4130257B2286B0D10010453B /* PostViewController.swift in Sources */,
 				4130253C228559340010453B /* ViewController.swift in Sources */,
