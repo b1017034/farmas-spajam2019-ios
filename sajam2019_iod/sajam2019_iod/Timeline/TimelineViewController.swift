@@ -13,6 +13,18 @@ class TimelineViewController: UIViewController {
     @IBOutlet var scrollView: horizontalScrollView!
     @IBOutlet var pageControl: UIPageControl!
     
+    @IBAction func toMypageButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "Mypage", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
+    }
+    
+    @IBAction func toOnsenButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "Onsen", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
+    }
+    
     var gutiViews: [GutiView] = []
     
     override func viewDidLoad() {
