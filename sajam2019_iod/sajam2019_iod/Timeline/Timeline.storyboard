@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QhT-RJ-ieJ">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -10,20 +10,82 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Timeline View Controller-->
         <scene sceneID="RIL-Vx-qF1">
             <objects>
-                <viewController id="QhT-RJ-ieJ" sceneMemberID="viewController">
+                <viewController id="QhT-RJ-ieJ" customClass="TimelineViewController" customModule="sajam2019_iod" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tG0-TR-tdb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IzM-aH-WTa">
+                                <rect key="frame" x="0.0" y="64" width="414" height="508"/>
+                                <color key="backgroundColor" red="0.051242404509999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9r8-EA-c82">
+                                <rect key="frame" x="0.0" y="579.5" width="414" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8t9-k7-421">
+                                <rect key="frame" x="20" y="711.5" width="108.5" height="108.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8t9-k7-421" secondAttribute="height" multiplier="1:1" id="Fx0-p0-e1C"/>
+                                </constraints>
+                                <state key="normal" image="myoage"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-Ee-Ner">
+                                <rect key="frame" x="152.5" y="711.5" width="109" height="108.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IEZ-Ee-Ner" secondAttribute="height" multiplier="1:1" id="dvd-FK-1oO"/>
+                                </constraints>
+                                <state key="normal" image="lighter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HG-UP-8Jg">
+                                <rect key="frame" x="285.5" y="711.5" width="108.5" height="108.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4HG-UP-8Jg" secondAttribute="height" multiplier="1:1" id="LTC-uP-A75"/>
+                                </constraints>
+                                <state key="normal" image="onsen"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.051242404509999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.051242404509999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IzM-aH-WTa" firstAttribute="leading" secondItem="PqD-uP-Z4V" secondAttribute="leading" id="8a6-wf-NL9"/>
+                            <constraint firstItem="8t9-k7-421" firstAttribute="centerY" secondItem="IEZ-Ee-Ner" secondAttribute="centerY" id="Dta-7M-icS"/>
+                            <constraint firstItem="IEZ-Ee-Ner" firstAttribute="leading" secondItem="8t9-k7-421" secondAttribute="trailing" constant="24" id="Gmq-lj-bCU"/>
+                            <constraint firstItem="PqD-uP-Z4V" firstAttribute="trailing" secondItem="9r8-EA-c82" secondAttribute="trailing" id="Gn0-1M-Azb"/>
+                            <constraint firstItem="9r8-EA-c82" firstAttribute="leading" secondItem="PqD-uP-Z4V" secondAttribute="leading" id="Jmn-5c-gmY"/>
+                            <constraint firstItem="IzM-aH-WTa" firstAttribute="top" secondItem="PqD-uP-Z4V" secondAttribute="top" constant="20" id="NQj-cb-a1y"/>
+                            <constraint firstItem="8t9-k7-421" firstAttribute="leading" secondItem="PqD-uP-Z4V" secondAttribute="leading" constant="20" id="NRs-jH-3dq"/>
+                            <constraint firstItem="8t9-k7-421" firstAttribute="width" secondItem="IEZ-Ee-Ner" secondAttribute="width" id="Tsv-CC-bIi"/>
+                            <constraint firstItem="IEZ-Ee-Ner" firstAttribute="width" secondItem="4HG-UP-8Jg" secondAttribute="width" id="Wkl-D7-xGY"/>
+                            <constraint firstItem="4HG-UP-8Jg" firstAttribute="centerY" secondItem="IEZ-Ee-Ner" secondAttribute="centerY" id="Xu4-pu-AXT"/>
+                            <constraint firstItem="IzM-aH-WTa" firstAttribute="width" secondItem="tG0-TR-tdb" secondAttribute="width" id="YVD-X9-2p7"/>
+                            <constraint firstAttribute="trailing" secondItem="4HG-UP-8Jg" secondAttribute="trailing" constant="20" id="kgQ-Ei-ZZg"/>
+                            <constraint firstItem="9r8-EA-c82" firstAttribute="top" secondItem="IzM-aH-WTa" secondAttribute="bottom" constant="8" id="mMN-aG-vVS"/>
+                            <constraint firstItem="PqD-uP-Z4V" firstAttribute="bottom" secondItem="IEZ-Ee-Ner" secondAttribute="bottom" constant="42" id="pTw-b8-2yH"/>
+                            <constraint firstItem="IEZ-Ee-Ner" firstAttribute="top" secondItem="9r8-EA-c82" secondAttribute="bottom" constant="95" id="qSj-9w-T3X"/>
+                            <constraint firstItem="IzM-aH-WTa" firstAttribute="trailing" secondItem="PqD-uP-Z4V" secondAttribute="trailing" id="rp9-EG-oaV"/>
+                            <constraint firstItem="4HG-UP-8Jg" firstAttribute="leading" secondItem="IEZ-Ee-Ner" secondAttribute="trailing" constant="24" id="szh-PQ-0lI"/>
+                            <constraint firstItem="IzM-aH-WTa" firstAttribute="centerX" secondItem="PqD-uP-Z4V" secondAttribute="centerX" id="vQf-cG-miq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PqD-uP-Z4V"/>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="9r8-EA-c82" id="VIG-5i-YZs"/>
+                        <outlet property="scrollView" destination="IzM-aH-WTa" id="cVq-jI-vb7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MHc-q9-jHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="188" y="-300"/>
+            <point key="canvasLocation" x="55.072463768115945" y="-340.84821428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lighter" width="480" height="480"/>
+        <image name="myoage" width="512" height="512"/>
+        <image name="onsen" width="300" height="300"/>
+    </resources>
 </document>
