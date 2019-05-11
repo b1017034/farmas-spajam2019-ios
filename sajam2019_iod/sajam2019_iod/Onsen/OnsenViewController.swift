@@ -15,7 +15,13 @@ class OnsenViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func postButton(_ sender: Any) {
+    }
+    @IBAction func mypageButton(_ sender: Any) {
+    }
+    @IBAction func timelineButton(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
