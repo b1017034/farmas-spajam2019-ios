@@ -214,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				413025722286B0720010453B /* post.storyboard */,
+				4A1F8F882286C59800357311 /* IMG_2577.PNG */,
 				4130257A2286B0D10010453B /* PostViewController.swift */,
 			);
 			path = Post;
@@ -354,6 +355,7 @@
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
+				4A1F8F892286C59800357311 /* IMG_2577.PNG in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
 				1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */,
