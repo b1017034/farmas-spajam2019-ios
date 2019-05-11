@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		41302544228559360010453B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41302542228559360010453B /* LaunchScreen.storyboard */; };
 		4130254F228559370010453B /* sajam2019_iodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130254E228559370010453B /* sajam2019_iodTests.swift */; };
 		4130255A228559370010453B /* sajam2019_iodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302559228559370010453B /* sajam2019_iodUITests.swift */; };
+		4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4130256B2286ACE70010453B /* GoogleService-Info.plist */; };
+		7E900E48B3C4B582075B143D /* Pods_sajam2019_iodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830F3516BE6A84C53893A0BE /* Pods_sajam2019_iodUITests.framework */; };
+		7F88F6E19C19828BB831D779 /* Pods_sajam2019_iod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75A6DBC684FAE1DA763A3D /* Pods_sajam2019_iod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,16 @@
 		41302555228559370010453B /* sajam2019_iodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sajam2019_iodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302559228559370010453B /* sajam2019_iodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sajam2019_iodUITests.swift; sourceTree = "<group>"; };
 		4130255B228559370010453B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4130256B2286ACE70010453B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D1752F54A911C0DDF02846A /* Pods-sajam2019_iodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.release.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.release.xcconfig"; sourceTree = "<group>"; };
+		73435FB97AD3E2F3E19B8908 /* Pods-sajam2019_iod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iod.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod.debug.xcconfig"; sourceTree = "<group>"; };
+		78E9E18C328903673DE323B3 /* Pods-sajam2019_iodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F75A6DBC684FAE1DA763A3D /* Pods_sajam2019_iod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sajam2019_iod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830F3516BE6A84C53893A0BE /* Pods_sajam2019_iodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sajam2019_iodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101B2643B581C613E3E1667 /* Pods-sajam2019_iodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodUITests.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodUITests/Pods-sajam2019_iodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sajam2019_iodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51570906F2D02E3A17B7CAA /* Pods-sajam2019_iodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodUITests.release.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodUITests/Pods-sajam2019_iodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6DD678AD0D80F43D1FADBF7 /* Pods-sajam2019_iod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iod.release.xcconfig"; path = "Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F88F6E19C19828BB831D779 /* Pods_sajam2019_iod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E900E48B3C4B582075B143D /* Pods_sajam2019_iodUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				4130254D228559370010453B /* sajam2019_iodTests */,
 				41302558228559370010453B /* sajam2019_iodUITests */,
 				41302537228559340010453B /* Products */,
+				DB99C6F5CCFF69DB1D7B9424 /* Pods */,
+				BFDF34D56E1C5DCB9D95856E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				41302540228559360010453B /* Assets.xcassets */,
 				41302542228559360010453B /* LaunchScreen.storyboard */,
 				41302545228559360010453B /* Info.plist */,
+				4130256B2286ACE70010453B /* GoogleService-Info.plist */,
 			);
 			path = sajam2019_iod;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = sajam2019_iodUITests;
 			sourceTree = "<group>";
 		};
+		BFDF34D56E1C5DCB9D95856E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F75A6DBC684FAE1DA763A3D /* Pods_sajam2019_iod.framework */,
+				A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */,
+				830F3516BE6A84C53893A0BE /* Pods_sajam2019_iodUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB99C6F5CCFF69DB1D7B9424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73435FB97AD3E2F3E19B8908 /* Pods-sajam2019_iod.debug.xcconfig */,
+				F6DD678AD0D80F43D1FADBF7 /* Pods-sajam2019_iod.release.xcconfig */,
+				78E9E18C328903673DE323B3 /* Pods-sajam2019_iodTests.debug.xcconfig */,
+				5D1752F54A911C0DDF02846A /* Pods-sajam2019_iodTests.release.xcconfig */,
+				A101B2643B581C613E3E1667 /* Pods-sajam2019_iodUITests.debug.xcconfig */,
+				F51570906F2D02E3A17B7CAA /* Pods-sajam2019_iodUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4130255E228559370010453B /* Build configuration list for PBXNativeTarget "sajam2019_iod" */;
 			buildPhases = (
+				D3F78CA8FC40793C7DBCB042 /* [CP] Check Pods Manifest.lock */,
 				41302532228559340010453B /* Sources */,
 				41302533228559340010453B /* Frameworks */,
 				41302534228559340010453B /* Resources */,
+				7FD41A2C247C2DB74E4E3DF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41302561228559370010453B /* Build configuration list for PBXNativeTarget "sajam2019_iodTests" */;
 			buildPhases = (
+				B0993EB73EB5AB4BF6125362 /* [CP] Check Pods Manifest.lock */,
 				41302546228559370010453B /* Sources */,
 				41302547228559370010453B /* Frameworks */,
 				41302548228559370010453B /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41302564228559370010453B /* Build configuration list for PBXNativeTarget "sajam2019_iodUITests" */;
 			buildPhases = (
+				EDB875B6F4815B37AF62A123 /* [CP] Check Pods Manifest.lock */,
 				41302551228559370010453B /* Sources */,
 				41302552228559370010453B /* Frameworks */,
 				41302553228559370010453B /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
+				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FD41A2C247C2DB74E4E3DF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0993EB73EB5AB4BF6125362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sajam2019_iodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F78CA8FC40793C7DBCB042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sajam2019_iod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB875B6F4815B37AF62A123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sajam2019_iodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41302532228559340010453B /* Sources */ = {
@@ -430,6 +564,7 @@
 		};
 		4130255F228559370010453B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73435FB97AD3E2F3E19B8908 /* Pods-sajam2019_iod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "asahi.sajam2019-iod";
+				PRODUCT_BUNDLE_IDENTIFIER = "farmas.sajam2019-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +582,7 @@
 		};
 		41302560228559370010453B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DD678AD0D80F43D1FADBF7 /* Pods-sajam2019_iod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +591,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "asahi.sajam2019-iod";
+				PRODUCT_BUNDLE_IDENTIFIER = "farmas.sajam2019-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +600,7 @@
 		};
 		41302562228559370010453B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E9E18C328903673DE323B3 /* Pods-sajam2019_iodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +621,7 @@
 		};
 		41302563228559370010453B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1752F54A911C0DDF02846A /* Pods-sajam2019_iodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +642,7 @@
 		};
 		41302565228559370010453B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A101B2643B581C613E3E1667 /* Pods-sajam2019_iodUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +662,7 @@
 		};
 		41302566228559370010453B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51570906F2D02E3A17B7CAA /* Pods-sajam2019_iodUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

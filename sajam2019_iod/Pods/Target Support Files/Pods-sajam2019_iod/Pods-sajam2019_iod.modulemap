@@ -1,0 +1,6 @@
+framework module Pods_sajam2019_iod {
+  umbrella header "Pods-sajam2019_iod-umbrella.h"
+
+  export *
+  module * { export * }
+}

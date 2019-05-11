@@ -1,0 +1,6 @@
+framework module Pods_sajam2019_iodTests {
+  umbrella header "Pods-sajam2019_iodTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
