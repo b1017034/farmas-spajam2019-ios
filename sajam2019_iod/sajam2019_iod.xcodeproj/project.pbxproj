@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
+		3744036E2286B78700B68037 /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3744036D2286B78600B68037 /* icon.jpeg */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3744036D2286B78600B68037 /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpeg; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				41302539228559340010453B /* AppDelegate.swift */,
 				4130253B228559340010453B /* ViewController.swift */,
 				4130253D228559340010453B /* Main.storyboard */,
+				3744036D2286B78600B68037 /* icon.jpeg */,
 				41302540228559360010453B /* Assets.xcassets */,
 				41302542228559360010453B /* LaunchScreen.storyboard */,
 				41302545228559360010453B /* Info.plist */,
@@ -340,6 +343,7 @@
 				41302541228559360010453B /* Assets.xcassets in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
+				3744036E2286B78700B68037 /* icon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
