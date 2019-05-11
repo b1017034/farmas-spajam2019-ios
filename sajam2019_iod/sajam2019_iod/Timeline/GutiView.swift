@@ -17,5 +17,7 @@ class GutiView: UIView {
     override func draw(_ rect: CGRect) {
         super.draw(rect)
         woodImageView.sendSubviewToBack(superview!)
+        
+        self.backgroundColor = UIColor.init(hex: "4ACFAC")
     }
 }
