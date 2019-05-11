@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import Firebase
 
 class PostViewController: UIViewController, UITextFieldDelegate {
      //入力されたテキストの保存用変数
     var input_textString = ""
     
+    //ユーザid生成
+    let uuid = NSUUID().uuidString
+    
+    var post_id = ""
+    
+    
+    
     @IBOutlet weak var input_text: UITextField!
     
     //投稿ボタン###############################################################################
     @IBAction func toPost(_ sender: Any) {
+        //ユーザIDのuserdefaultsへの登録
+        UserDefaults.standard.set(uuid, forKey: "user_id")
+        
+        //post_idを決める
+        post_id = NSUUID().uuidString
+        
         //textViewから文字を取得
         input_textString = input_text.text!
         
@@ -56,6 +70,7 @@ class PostViewController: UIViewController, UITextFieldDelegate {
         //textFieldの情報を受け取るためのdelegateを設定
         input_text.delegate = self
         view.backgroundColor = UIColor.init(red: 74/255, green: 207/255, blue: 172/255, alpha: 100/100)
+        
     }
     
     //「改行」や「Return」などのキーを押したときに呼ばれる#################################
