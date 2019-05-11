@@ -10,41 +10,27 @@ import UIKit
 
 class TimelineViewController: UIViewController {
 
-    @IBOutlet var scrollView: UIScrollView!
+    @IBOutlet var scrollView: horizontalScrollView!
     @IBOutlet var pageControl: UIPageControl!
     
-    var ScrollBackView = UIView()
+    @IBAction func toMypageButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "Mypage", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
+    }
+    
+    @IBAction func toOnsenButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "Onsen", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
+    }
     
     var gutiViews: [GutiView] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.scrollView.delegate = self
-        
-        ScrollBackView.frame.origin.x = scrollView.frame.origin.x
-        ScrollBackView.frame.origin.y = scrollView.frame.origin.y
-        ScrollBackView.frame = CGRect(x: scrollView.frame.minX, y: scrollView.frame.minY, width: scrollView.frame.maxX * 3, height: scrollView.frame.maxY)
-        ScrollBackView.backgroundColor = UIColor.init(hex: "4ACFAC")
-        scrollView.addSubview(ScrollBackView)
-        
-        scrollView.contentSize = CGSize(width: scrollView.frame.size.width * 3,
-                                        height: scrollView.frame.size.height)
-        
-        initializeGuiView(count: 2)
+        self.scrollView.horizaontalDelegate = self
         // Do any additional setup after loading the view.
-    }
-    
-    func initializeGuiView(count: Int){
-        for i in 0...count {
-            gutiViews.append(Bundle.main.loadNibNamed("GutiView", owner: self, options: nil)!.first! as! GutiView)
-            gutiViews[i].frame = scrollView.frame
-            gutiViews[i].frame.origin.y = scrollView.frame.origin.y
-            let cgx: CGFloat = scrollView.frame.origin.x
-            gutiViews[i].frame.origin.x = cgx + CGFloat(i) * scrollView.frame.width
-            gutiViews[i].textLabel.text = "殺すぞ"
-            ScrollBackView.addSubview(gutiViews[i])
-            print("gutiViews[" + "\(i)" + "]: " + "\(gutiViews[i].frame)")
-        }
     }
     /*
     // MARK: - Navigation
@@ -57,22 +43,29 @@ class TimelineViewController: UIViewController {
     */
 }
 
-extension TimelineViewController: UIScrollViewDelegate{
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        pageControl.currentPage = Int(scrollView.contentOffset.x / scrollView.frame.size.width)
-    }
-}
-
-extension UIColor {
-    convenience init(hex: String, alpha: CGFloat) {
-        let v = hex.map { String($0) } + Array(repeating: "0", count: max(6 - hex.count, 0))
-        let r = CGFloat(Int(v[0] + v[1], radix: 16) ?? 0) / 255.0
-        let g = CGFloat(Int(v[2] + v[3], radix: 16) ?? 0) / 255.0
-        let b = CGFloat(Int(v[4] + v[5], radix: 16) ?? 0) / 255.0
-        self.init(red: r, green: g, blue: b, alpha: min(max(alpha, 0), 1))
+extension TimelineViewController: horizontalScrollViewDelegate{
+    func horizontalScrollView(_ horizantalScrollView: horizontalScrollView, _ scrollBackView: UIView, _ count: Int) {
+        gutiViews.append(Bundle.main.loadNibNamed("GutiView", owner: self, options: nil)!.first! as! GutiView)
+        gutiViews[count].frame = scrollView.frame
+        gutiViews[count].frame.origin.y = scrollView.frame.origin.y
+        let cgx: CGFloat = scrollView.frame.origin.x
+        gutiViews[count].frame.origin.x = cgx + CGFloat(count) * scrollView.frame.width
+        gutiViews[count].textLabel.text = "殺すぞ"
+        scrollBackView.addSubview(gutiViews[count])
+        print("gutiview: \(gutiViews[count].frame) \(count)")
     }
     
-    convenience init(hex: String) {
-        self.init(hex: hex, alpha: 1.0)
+    func numberOfSection() -> Int {
+        return 3
     }
+    
+    func Color() -> String {
+        return "4ACFAC"
+    }
+    
+    func horizontalScrollViewDidScroll(_ horizantalScrollView: horizontalScrollView) {
+        pageControl.currentPage = Int(scrollView.contentOffset.x / scrollView.frame.size.width)
+    }
+
 }
+
