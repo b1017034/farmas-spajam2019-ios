@@ -16,6 +16,14 @@
 		4130254F228559370010453B /* sajam2019_iodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130254E228559370010453B /* sajam2019_iodTests.swift */; };
 		4130255A228559370010453B /* sajam2019_iodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302559228559370010453B /* sajam2019_iodUITests.swift */; };
 		4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4130256B2286ACE70010453B /* GoogleService-Info.plist */; };
+		413025732286B0720010453B /* post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413025722286B0720010453B /* post.storyboard */; };
+		413025752286B0810010453B /* Onsen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413025742286B0810010453B /* Onsen.storyboard */; };
+		413025772286B08C0010453B /* Mypage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413025762286B08C0010453B /* Mypage.storyboard */; };
+		413025792286B0980010453B /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413025782286B0980010453B /* Timeline.storyboard */; };
+		4130257B2286B0D10010453B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130257A2286B0D10010453B /* PostViewController.swift */; };
+		413025812286B1080010453B /* OnsenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025802286B1080010453B /* OnsenViewController.swift */; };
+		413025832286B11C0010453B /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025822286B11C0010453B /* MypageViewController.swift */; };
+		413025852286B1280010453B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025842286B1280010453B /* TimelineViewController.swift */; };
 		7E900E48B3C4B582075B143D /* Pods_sajam2019_iodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830F3516BE6A84C53893A0BE /* Pods_sajam2019_iodUITests.framework */; };
 		7F88F6E19C19828BB831D779 /* Pods_sajam2019_iod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75A6DBC684FAE1DA763A3D /* Pods_sajam2019_iod.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +60,14 @@
 		41302559228559370010453B /* sajam2019_iodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sajam2019_iodUITests.swift; sourceTree = "<group>"; };
 		4130255B228559370010453B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4130256B2286ACE70010453B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		413025722286B0720010453B /* post.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = post.storyboard; sourceTree = "<group>"; };
+		413025742286B0810010453B /* Onsen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onsen.storyboard; sourceTree = "<group>"; };
+		413025762286B08C0010453B /* Mypage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mypage.storyboard; sourceTree = "<group>"; };
+		413025782286B0980010453B /* Timeline.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timeline.storyboard; sourceTree = "<group>"; };
+		4130257A2286B0D10010453B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		413025802286B1080010453B /* OnsenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnsenViewController.swift; sourceTree = "<group>"; };
+		413025822286B11C0010453B /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		413025842286B1280010453B /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		5D1752F54A911C0DDF02846A /* Pods-sajam2019_iodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.release.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.release.xcconfig"; sourceTree = "<group>"; };
 		73435FB97AD3E2F3E19B8908 /* Pods-sajam2019_iod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iod.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod.debug.xcconfig"; sourceTree = "<group>"; };
 		78E9E18C328903673DE323B3 /* Pods-sajam2019_iodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +132,10 @@
 		41302538228559340010453B /* sajam2019_iod */ = {
 			isa = PBXGroup;
 			children = (
+				413025712286B0500010453B /* Post */,
+				413025702286B01C0010453B /* Onsen */,
+				4130256F2286B0000010453B /* Mypage */,
+				4130256E2286AFF20010453B /* Timeline */,
 				41302539228559340010453B /* AppDelegate.swift */,
 				4130253B228559340010453B /* ViewController.swift */,
 				4130253D228559340010453B /* Main.storyboard */,
@@ -143,6 +163,42 @@
 				4130255B228559370010453B /* Info.plist */,
 			);
 			path = sajam2019_iodUITests;
+			sourceTree = "<group>";
+		};
+		4130256E2286AFF20010453B /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				413025782286B0980010453B /* Timeline.storyboard */,
+				413025842286B1280010453B /* TimelineViewController.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		4130256F2286B0000010453B /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				413025762286B08C0010453B /* Mypage.storyboard */,
+				413025822286B11C0010453B /* MypageViewController.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		413025702286B01C0010453B /* Onsen */ = {
+			isa = PBXGroup;
+			children = (
+				413025742286B0810010453B /* Onsen.storyboard */,
+				413025802286B1080010453B /* OnsenViewController.swift */,
+			);
+			path = Onsen;
+			sourceTree = "<group>";
+		};
+		413025712286B0500010453B /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				413025722286B0720010453B /* post.storyboard */,
+				4130257A2286B0D10010453B /* PostViewController.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 		BFDF34D56E1C5DCB9D95856E /* Frameworks */ = {
@@ -277,8 +333,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
+				413025792286B0980010453B /* Timeline.storyboard in Resources */,
+				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
+				413025732286B0720010453B /* post.storyboard in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
+				413025752286B0810010453B /* Onsen.storyboard in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,8 +450,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413025832286B11C0010453B /* MypageViewController.swift in Sources */,
+				4130257B2286B0D10010453B /* PostViewController.swift in Sources */,
 				4130253C228559340010453B /* ViewController.swift in Sources */,
+				413025812286B1080010453B /* OnsenViewController.swift in Sources */,
 				4130253A228559340010453B /* AppDelegate.swift in Sources */,
+				413025852286B1280010453B /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
