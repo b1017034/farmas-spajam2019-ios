@@ -10,20 +10,64 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Onsen View Controller-->
         <scene sceneID="RV9-xn-BcX">
             <objects>
-                <viewController id="0yh-tj-gYT" sceneMemberID="viewController">
+                <viewController id="0yh-tj-gYT" customClass="OnsenViewController" customModule="sajam2019_iod" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vk5-pJ-QjR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDI-u3-S0J">
+                                <rect key="frame" x="70" y="666" width="100" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="j7o-du-8Po"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="myPage"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btj-j6-ySA">
+                                <rect key="frame" x="244" y="650" width="100" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="IiV-qu-Q0M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="timeLine"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfX-sq-JBu">
+                                <rect key="frame" x="294" y="84" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Mlg-gz-hr2"/>
+                                    <constraint firstAttribute="height" constant="50" id="mhS-bC-4g0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Post"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cIU-8o-HGe">
+                                <rect key="frame" x="0.0" y="213" width="414" height="371"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="WfX-sq-JBu" secondAttribute="trailing" constant="40" id="0CN-h0-Xi9"/>
+                            <constraint firstItem="Btj-j6-ySA" firstAttribute="leading" secondItem="VDI-u3-S0J" secondAttribute="trailing" constant="74" id="3Dc-l5-rOH"/>
+                            <constraint firstItem="WfX-sq-JBu" firstAttribute="top" secondItem="u25-uw-n2M" secondAttribute="top" constant="40" id="9iK-6y-cPz"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="cIU-8o-HGe" secondAttribute="trailing" id="BbY-gT-JRt"/>
+                            <constraint firstItem="VDI-u3-S0J" firstAttribute="top" secondItem="u25-uw-n2M" secondAttribute="top" constant="622" id="M1z-9U-13G"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="cIU-8o-HGe" secondAttribute="trailing" id="OYf-Qa-uJA"/>
+                            <constraint firstItem="Btj-j6-ySA" firstAttribute="baseline" secondItem="VDI-u3-S0J" secondAttribute="baseline" id="Z47-60-mJ0"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="Btj-j6-ySA" secondAttribute="trailing" constant="70" id="dqQ-LO-G7w"/>
+                            <constraint firstItem="VDI-u3-S0J" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" constant="70" id="lLp-P7-2Cd"/>
+                            <constraint firstItem="Btj-j6-ySA" firstAttribute="top" secondItem="cIU-8o-HGe" secondAttribute="bottom" constant="66" id="pOA-8S-cjl"/>
+                            <constraint firstItem="cIU-8o-HGe" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" id="qbv-B7-jxq"/>
+                            <constraint firstItem="cIU-8o-HGe" firstAttribute="top" secondItem="WfX-sq-JBu" secondAttribute="bottom" constant="79" id="wex-rA-YG9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="u25-uw-n2M"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ad0-6J-54y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-20" y="-27"/>
+            <point key="canvasLocation" x="-20.289855072463769" y="-27.455357142857142"/>
         </scene>
     </scenes>
 </document>
