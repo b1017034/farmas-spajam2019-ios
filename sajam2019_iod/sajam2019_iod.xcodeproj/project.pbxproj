@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
+		1C5A4629228715A5000495C3 /* IMG_2616.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A4626228715A5000495C3 /* IMG_2616.PNG */; };
+		1C5A462A228715A5000495C3 /* IMG_2614.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A4627228715A5000495C3 /* IMG_2614.PNG */; };
+		1C5A462B228715A5000495C3 /* IMG_2615.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A4628228715A5000495C3 /* IMG_2615.PNG */; };
+		1C5A462D22871790000495C3 /* 1337209.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462C22871790000495C3 /* 1337209.png */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -46,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5A4626228715A5000495C3 /* IMG_2616.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2616.PNG; path = ../../../../../../../Downloads/IMG_2616.PNG; sourceTree = "<group>"; };
+		1C5A4627228715A5000495C3 /* IMG_2614.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2614.PNG; path = ../../../../../../../Downloads/IMG_2614.PNG; sourceTree = "<group>"; };
+		1C5A4628228715A5000495C3 /* IMG_2615.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2615.PNG; path = ../../../../../../../Downloads/IMG_2615.PNG; sourceTree = "<group>"; };
+		1C5A462C22871790000495C3 /* 1337209.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1337209.png; path = ../../../../../../../Downloads/1337209.png; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +196,10 @@
 			children = (
 				413025742286B0810010453B /* Onsen.storyboard */,
 				413025802286B1080010453B /* OnsenViewController.swift */,
+				1C5A462C22871790000495C3 /* 1337209.png */,
+				1C5A4627228715A5000495C3 /* IMG_2614.PNG */,
+				1C5A4628228715A5000495C3 /* IMG_2615.PNG */,
+				1C5A4626228715A5000495C3 /* IMG_2616.PNG */,
 			);
 			path = Onsen;
 			sourceTree = "<group>";
@@ -334,10 +346,14 @@
 			files = (
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
+				1C5A4629228715A5000495C3 /* IMG_2616.PNG in Resources */,
+				1C5A462D22871790000495C3 /* 1337209.png in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
+				1C5A462A228715A5000495C3 /* IMG_2614.PNG in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
+				1C5A462B228715A5000495C3 /* IMG_2615.PNG in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
 			);
