@@ -10,12 +10,12 @@ import UIKit
 
 class GutiView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
+    @IBOutlet var woodImageView: UIImageView!
+    @IBOutlet var textLabel: UILabel!
+    var count = 0
+    
     override func draw(_ rect: CGRect) {
-        // Drawing code
+        super.draw(rect)
+        woodImageView.sendSubviewToBack(superview!)
     }
-    */
-
 }
