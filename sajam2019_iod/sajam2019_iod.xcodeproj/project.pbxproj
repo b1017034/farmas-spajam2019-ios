@@ -16,6 +16,10 @@
 		3744038E2287368900B68037 /* burn.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3744038C2287368900B68037 /* burn.sks */; };
 		3744038F2287368900B68037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3744038D2287368900B68037 /* Assets.xcassets */; };
 		374403912287372E00B68037 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374403902287372E00B68037 /* player.swift */; };
+		1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462E2287303B000495C3 /* IMG_2626.PNG */; };
+		1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462F2287305B000495C3 /* IMG_2627.PNG */; };
+		1C5A46342287305C000495C3 /* IMG_2624.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A46302287305C000495C3 /* IMG_2624.PNG */; };
+		1C5A46352287305C000495C3 /* IMG_2618.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A46312287305C000495C3 /* IMG_2618.PNG */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -32,6 +36,9 @@
 		413025812286B1080010453B /* OnsenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025802286B1080010453B /* OnsenViewController.swift */; };
 		413025832286B11C0010453B /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025822286B11C0010453B /* MypageViewController.swift */; };
 		413025852286B1280010453B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413025842286B1280010453B /* TimelineViewController.swift */; };
+		4130258B2286C94A0010453B /* GutiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4130258A2286C94A0010453B /* GutiView.xib */; };
+		4130258D2286C9540010453B /* GutiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130258C2286C9540010453B /* GutiView.swift */; };
+		4130258F22873B170010453B /* horizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130258E22873B170010453B /* horizontalScrollView.swift */; };
 		7E900E48B3C4B582075B143D /* Pods_sajam2019_iodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830F3516BE6A84C53893A0BE /* Pods_sajam2019_iodUITests.framework */; };
 		7F88F6E19C19828BB831D779 /* Pods_sajam2019_iod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75A6DBC684FAE1DA763A3D /* Pods_sajam2019_iod.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +69,10 @@
 		3744038C2287368900B68037 /* burn.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = burn.sks; sourceTree = "<group>"; };
 		3744038D2287368900B68037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374403902287372E00B68037 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		1C5A462E2287303B000495C3 /* IMG_2626.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2626.PNG; path = ../../../../../../../Downloads/IMG_2626.PNG; sourceTree = "<group>"; };
+		1C5A462F2287305B000495C3 /* IMG_2627.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2627.PNG; path = ../../../../../../../Downloads/IMG_2627.PNG; sourceTree = "<group>"; };
+		1C5A46302287305C000495C3 /* IMG_2624.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2624.PNG; path = ../../../../../../../Downloads/IMG_2624.PNG; sourceTree = "<group>"; };
+		1C5A46312287305C000495C3 /* IMG_2618.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2618.PNG; path = ../../../../../../../Downloads/IMG_2618.PNG; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +95,9 @@
 		413025802286B1080010453B /* OnsenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnsenViewController.swift; sourceTree = "<group>"; };
 		413025822286B11C0010453B /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 		413025842286B1280010453B /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		4130258A2286C94A0010453B /* GutiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GutiView.xib; sourceTree = "<group>"; };
+		4130258C2286C9540010453B /* GutiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GutiView.swift; sourceTree = "<group>"; };
+		4130258E22873B170010453B /* horizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontalScrollView.swift; sourceTree = "<group>"; };
 		5D1752F54A911C0DDF02846A /* Pods-sajam2019_iodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.release.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.release.xcconfig"; sourceTree = "<group>"; };
 		73435FB97AD3E2F3E19B8908 /* Pods-sajam2019_iod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iod.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iod/Pods-sajam2019_iod.debug.xcconfig"; sourceTree = "<group>"; };
 		78E9E18C328903673DE323B3 /* Pods-sajam2019_iodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sajam2019_iodTests.debug.xcconfig"; path = "Target Support Files/Pods-sajam2019_iodTests/Pods-sajam2019_iodTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +201,9 @@
 			children = (
 				413025782286B0980010453B /* Timeline.storyboard */,
 				413025842286B1280010453B /* TimelineViewController.swift */,
+				4130258A2286C94A0010453B /* GutiView.xib */,
+				4130258C2286C9540010453B /* GutiView.swift */,
+				4130258E22873B170010453B /* horizontalScrollView.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -212,6 +229,10 @@
 			children = (
 				413025742286B0810010453B /* Onsen.storyboard */,
 				413025802286B1080010453B /* OnsenViewController.swift */,
+				1C5A46312287305C000495C3 /* IMG_2618.PNG */,
+				1C5A46302287305C000495C3 /* IMG_2624.PNG */,
+				1C5A462E2287303B000495C3 /* IMG_2626.PNG */,
+				1C5A462F2287305B000495C3 /* IMG_2627.PNG */,
 			);
 			path = Onsen;
 			sourceTree = "<group>";
@@ -220,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				413025722286B0720010453B /* post.storyboard */,
+				4A1F8F882286C59800357311 /* IMG_2577.PNG */,
 				4130257A2286B0D10010453B /* PostViewController.swift */,
 			);
 			path = Post;
@@ -356,21 +378,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */,
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
 				3744038E2287368900B68037 /* burn.sks in Resources */,
 				37440378228701D000B68037 /* tree.PNG in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
 				37440383228724D200B68037 /* burn.png in Resources */,
+				4A1F8F892286C59800357311 /* IMG_2577.PNG in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
+				1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
 				3744038722872ACF00B68037 /* raita.png in Resources */,
+				1C5A46352287305C000495C3 /* IMG_2618.PNG in Resources */,
+				1C5A46342287305C000495C3 /* IMG_2624.PNG in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
 				374403852287285A00B68037 /* honoo.png in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
 				3744038F2287368900B68037 /* Assets.xcassets in Resources */,
 				3744036E2286B78700B68037 /* icon.jpeg in Resources */,
+				4130258B2286C94A0010453B /* GutiView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +509,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4130258D2286C9540010453B /* GutiView.swift in Sources */,
+				4130258F22873B170010453B /* horizontalScrollView.swift in Sources */,
 				413025832286B11C0010453B /* MypageViewController.swift in Sources */,
 				4130257B2286B0D10010453B /* PostViewController.swift in Sources */,
 				4130253C228559340010453B /* ViewController.swift in Sources */,
@@ -664,12 +694,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXL7F9J64Z;
 				INFOPLIST_FILE = sajam2019_iod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "farmas.sajam2019-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "farmas.sajam2019-ioss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -682,12 +713,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXL7F9J64Z;
 				INFOPLIST_FILE = sajam2019_iod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "farmas.sajam2019-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "farmas.sajam2019-ioss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
