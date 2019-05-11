@@ -12,9 +12,8 @@ class MypageViewController: UIViewController {
 
         @IBOutlet var labelX: UILabel!
         @IBOutlet var labelY: UILabel!
-        
-        // 画像インスタンス
-        let imageBag = UIImageView()
+        @IBOutlet weak var imageBag: UIImageView!
+    // 画像インスタンス
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -92,7 +91,21 @@ class MypageViewController: UIViewController {
             super.didReceiveMemoryWarning()
             // Dispose of any resources that can be recreated.
         }
-        
+    
+    @IBAction func label1drag(_ sender: UIPanGestureRecognizer) {
+        switch sender.state {
+        //これでドラッグしている間は指に付いてくる
+        case .changed:
+            imageBag.center = sender.location(in: self.view)
+        //これで離した瞬間x:200, y:462に戻ってくる
+        case .ended:
+            //imageBag.center = CGPoint(x:200, y:462)
+            UIView.animate(withDuration: 1.0, delay: 0.0, animations: {
+                self.imageBag.center.y -= 500.0
+            }, completion: nil)
+        default:
+            break
+        }
         
     }
-
+}
