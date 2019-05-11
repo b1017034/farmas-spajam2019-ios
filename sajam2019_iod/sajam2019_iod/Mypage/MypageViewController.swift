@@ -10,21 +10,99 @@ import UIKit
 
 class MypageViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+        @IBOutlet weak var imageBag: UIImageView!
+    // 画像インスタンス
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // Screen Size の取得
+            let screenWidth:CGFloat = view.frame.size.width
+            let screenHeight:CGFloat = view.frame.size.height
+            
+            // ハンドバッグの画像を設定
+            imageBag.image = UIImage(named: "tree.PNG")
+            // 画像のフレームを設定
+            imageBag.frame = CGRect(x:0, y:0, width:300, height:350)
+            
+            // 画像をスクリーン中央に設定
+            imageBag.center = CGPoint(x:screenWidth/2, y:screenHeight/2)
+            
+            // タッチ操作を enable
+            imageBag.isUserInteractionEnabled = true
+            
+            self.view.addSubview(imageBag)
+            
+        }
+        
+        // 画面にタッチで呼ばれる
+        override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+            print("touchesBegan")
+            
+        }
+        
+        //　ドラッグ時に呼ばれる
+        override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+            // タッチイベントを取得
+            let touchEvent = touches.first!
+            
+            // ドラッグ前の座標, Swift 1.2 から
+            let preDx = touchEvent.previousLocation(in: self.view).x
+            let preDy = touchEvent.previousLocation(in: self.view).y
+            
+            // ドラッグ後の座標
+            let newDx = touchEvent.location(in: self.view).x
+            let newDy = touchEvent.location(in: self.view).y
+            
+            // ドラッグしたx座標の移動距離
+            let dx = newDx - preDx
+            print("x:\(dx)")
+            
+            // ドラッグしたy座標の移動距離
+            let dy = newDy - preDy
+            print("y:\(dy)")
+            
+            // 画像のフレーム
+            var viewFrame: CGRect = imageBag.frame
+            
+            // 移動分を反映させる
+            viewFrame.origin.x += dx
+            viewFrame.origin.y += dy
+            
+            imageBag.frame = viewFrame
+            
+            self.view.addSubview(imageBag)
+            
+        }
+        
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            // Dispose of any resources that can be recreated.
+        }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func label1drag(_ sender: UIPanGestureRecognizer) {
+        switch sender.state {
+        //これでドラッグしている間は指に付いてくる
+        case .changed:
+            imageBag.center = sender.location(in: self.view)
+        //これで離した瞬間x:200, y:462に戻ってくる
+        case .ended:
+            //imageBag.center = CGPoint(x:200, y:462)
+            UIView.animate(withDuration: 1.0, delay: 0.0, animations: {
+                self.imageBag.center.y -= 600.0
+            }, completion: nil)
+        default:
+            break
+        }
+        
     }
-    */
-
+    var tap = 0
+    @IBAction func tapRaita(_ sender: Any) {
+        tap += 1
+        if tap == 1{
+            
+        }else if tap == 2{
+            
+        }
+    }
 }

@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
+		3744036E2286B78700B68037 /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3744036D2286B78600B68037 /* icon.jpeg */; };
+		37440378228701D000B68037 /* tree.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 37440377228701D000B68037 /* tree.PNG */; };
+		37440383228724D200B68037 /* burn.png in Resources */ = {isa = PBXBuildFile; fileRef = 37440382228724D200B68037 /* burn.png */; };
+		374403852287285A00B68037 /* honoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 374403842287285A00B68037 /* honoo.png */; };
+		3744038722872ACF00B68037 /* raita.png in Resources */ = {isa = PBXBuildFile; fileRef = 3744038622872ACF00B68037 /* raita.png */; };
+		3744038E2287368900B68037 /* burn.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3744038C2287368900B68037 /* burn.sks */; };
+		3744038F2287368900B68037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3744038D2287368900B68037 /* Assets.xcassets */; };
+		374403912287372E00B68037 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374403902287372E00B68037 /* player.swift */; };
 		1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462E2287303B000495C3 /* IMG_2626.PNG */; };
 		1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462F2287305B000495C3 /* IMG_2627.PNG */; };
 		1C5A46342287305C000495C3 /* IMG_2624.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A46302287305C000495C3 /* IMG_2624.PNG */; };
@@ -53,6 +61,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3744036D2286B78600B68037 /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpeg; sourceTree = "<group>"; };
+		37440377228701D000B68037 /* tree.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.PNG; sourceTree = "<group>"; };
+		37440382228724D200B68037 /* burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burn.png; sourceTree = "<group>"; };
+		374403842287285A00B68037 /* honoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honoo.png; sourceTree = "<group>"; };
+		3744038622872ACF00B68037 /* raita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raita.png; sourceTree = "<group>"; };
+		3744038C2287368900B68037 /* burn.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = burn.sks; sourceTree = "<group>"; };
+		3744038D2287368900B68037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		374403902287372E00B68037 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 		1C5A462E2287303B000495C3 /* IMG_2626.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2626.PNG; path = ../../../../../../../Downloads/IMG_2626.PNG; sourceTree = "<group>"; };
 		1C5A462F2287305B000495C3 /* IMG_2627.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2627.PNG; path = ../../../../../../../Downloads/IMG_2627.PNG; sourceTree = "<group>"; };
 		1C5A46302287305C000495C3 /* IMG_2624.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2624.PNG; path = ../../../../../../../Downloads/IMG_2624.PNG; sourceTree = "<group>"; };
@@ -153,6 +169,7 @@
 				41302539228559340010453B /* AppDelegate.swift */,
 				4130253B228559340010453B /* ViewController.swift */,
 				4130253D228559340010453B /* Main.storyboard */,
+				3744036D2286B78600B68037 /* icon.jpeg */,
 				41302540228559360010453B /* Assets.xcassets */,
 				41302542228559360010453B /* LaunchScreen.storyboard */,
 				41302545228559360010453B /* Info.plist */,
@@ -194,8 +211,15 @@
 		4130256F2286B0000010453B /* Mypage */ = {
 			isa = PBXGroup;
 			children = (
+				37440377228701D000B68037 /* tree.PNG */,
+				37440382228724D200B68037 /* burn.png */,
+				374403842287285A00B68037 /* honoo.png */,
+				3744038622872ACF00B68037 /* raita.png */,
 				413025762286B08C0010453B /* Mypage.storyboard */,
 				413025822286B11C0010453B /* MypageViewController.swift */,
+				3744038C2287368900B68037 /* burn.sks */,
+				3744038D2287368900B68037 /* Assets.xcassets */,
+				374403902287372E00B68037 /* player.swift */,
 			);
 			path = Mypage;
 			sourceTree = "<group>";
@@ -357,16 +381,23 @@
 				1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */,
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
+				3744038E2287368900B68037 /* burn.sks in Resources */,
+				37440378228701D000B68037 /* tree.PNG in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
+				37440383228724D200B68037 /* burn.png in Resources */,
 				4A1F8F892286C59800357311 /* IMG_2577.PNG in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
 				1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
+				3744038722872ACF00B68037 /* raita.png in Resources */,
 				1C5A46352287305C000495C3 /* IMG_2618.PNG in Resources */,
 				1C5A46342287305C000495C3 /* IMG_2624.PNG in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
+				374403852287285A00B68037 /* honoo.png in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
+				3744038F2287368900B68037 /* Assets.xcassets in Resources */,
+				3744036E2286B78700B68037 /* icon.jpeg in Resources */,
 				4130258B2286C94A0010453B /* GutiView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +515,7 @@
 				4130257B2286B0D10010453B /* PostViewController.swift in Sources */,
 				4130253C228559340010453B /* ViewController.swift in Sources */,
 				413025812286B1080010453B /* OnsenViewController.swift in Sources */,
+				374403912287372E00B68037 /* player.swift in Sources */,
 				4130253A228559340010453B /* AppDelegate.swift in Sources */,
 				413025852286B1280010453B /* TimelineViewController.swift in Sources */,
 			);
