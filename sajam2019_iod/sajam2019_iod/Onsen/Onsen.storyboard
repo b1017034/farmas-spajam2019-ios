@@ -25,6 +25,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="myPage"/>
+                                <connections>
+                                    <action selector="mypageButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="9is-5r-Zj9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btj-j6-ySA">
                                 <rect key="frame" x="244" y="650" width="100" height="70"/>
@@ -33,6 +36,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="timeLine"/>
+                                <connections>
+                                    <action selector="timelineButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="SRF-Ye-paS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfX-sq-JBu">
                                 <rect key="frame" x="294" y="84" width="80" height="50"/>
@@ -42,6 +48,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Post"/>
+                                <connections>
+                                    <action selector="postButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="5wI-O9-wO8"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cIU-8o-HGe">
                                 <rect key="frame" x="0.0" y="213" width="414" height="371"/>
@@ -64,6 +73,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="u25-uw-n2M"/>
                     </view>
+                    <connections>
+                        <outlet property="onsenImages" destination="cIU-8o-HGe" id="VEc-Tf-eDC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ad0-6J-54y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
