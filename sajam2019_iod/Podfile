@@ -7,7 +7,7 @@ target 'sajam2019_iod' do
 
   # Pods for sajam2019_iod
   pod 'Firebase/Core'
-
+  pod 'Firebase/Database'
 
   target 'sajam2019_iodTests' do
     inherit! :search_paths

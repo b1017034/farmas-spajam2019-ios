@@ -43,6 +43,11 @@
                                     <constraint firstAttribute="width" secondItem="IEZ-Ee-Ner" secondAttribute="height" multiplier="1:1" id="dvd-FK-1oO"/>
                                 </constraints>
                                 <state key="normal" image="lighter"/>
+                                <connections>
+                                    <action selector="touchDownLighter:" destination="QhT-RJ-ieJ" eventType="touchDown" id="j8T-JK-ipN"/>
+                                    <action selector="touchUpInsideLiter:" destination="QhT-RJ-ieJ" eventType="touchUpInside" id="SGZ-CJ-J9G"/>
+                                    <action selector="touchUpOutsideLighter:" destination="QhT-RJ-ieJ" eventType="touchUpOutside" id="wRB-ZK-fkv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HG-UP-8Jg">
                                 <rect key="frame" x="285.5" y="711.5" width="108.5" height="108.5"/>
@@ -53,6 +58,11 @@
                                 <connections>
                                     <action selector="toOnsenButton:" destination="QhT-RJ-ieJ" eventType="touchUpInside" id="ptw-tH-T2I"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fv9-Pm-7gg">
+                                <rect key="frame" x="136" y="534" width="143" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="honoo"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2901960784" green="0.81176470590000005" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,6 +90,7 @@
                         <viewLayoutGuide key="safeArea" id="PqD-uP-Z4V"/>
                     </view>
                     <connections>
+                        <outlet property="honouImage" destination="fv9-Pm-7gg" id="tfG-q6-5d4"/>
                         <outlet property="pageControl" destination="9r8-EA-c82" id="VIG-5i-YZs"/>
                         <outlet property="scrollView" destination="IzM-aH-WTa" id="cVq-jI-vb7"/>
                     </connections>
@@ -90,6 +101,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="honoo" width="640" height="640"/>
         <image name="lighter" width="480" height="480"/>
         <image name="myoage" width="512" height="512"/>
         <image name="onsen" width="300" height="300"/>

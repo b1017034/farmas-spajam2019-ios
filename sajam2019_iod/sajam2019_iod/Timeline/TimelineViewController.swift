@@ -24,12 +24,25 @@ class TimelineViewController: UIViewController {
         let vc = sb.instantiateInitialViewController()
         self.present(vc!, animated: true, completion: nil)
     }
+    @IBAction func touchDownLighter(_ sender: Any) {
+        honouImage.isHidden = false
+    }
     
+    @IBAction func touchUpInsideLiter(_ sender: Any) {
+        honouImage.isHidden = true
+    }
+    
+    @IBAction func touchUpOutsideLighter(_ sender: Any) {
+        honouImage.isHidden = true
+    }
+    
+    @IBOutlet var honouImage: UIButton!
     var gutiViews: [GutiView] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.scrollView.horizaontalDelegate = self
+        honouImage.isHidden = true
         // Do any additional setup after loading the view.
     }
     /*
