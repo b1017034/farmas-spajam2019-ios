@@ -10,8 +10,6 @@ import UIKit
 
 class MypageViewController: UIViewController {
 
-        @IBOutlet var labelX: UILabel!
-        @IBOutlet var labelY: UILabel!
         @IBOutlet weak var imageBag: UIImageView!
     // 画像インスタンス
         
@@ -34,13 +32,6 @@ class MypageViewController: UIViewController {
             imageBag.isUserInteractionEnabled = true
             
             self.view.addSubview(imageBag)
-            
-            // 小数点以下２桁のみ表示
-            labelX.text = "x: ".appendingFormat("%.2f", screenWidth/2)
-            labelY.text = "y: ".appendingFormat("%.2f", screenHeight/2)
-            
-            // 画面背景を設定
-            self.view.backgroundColor = UIColor(red:0.85,green:1.0,blue:0.95,alpha:1.0)
             
         }
         
@@ -82,9 +73,6 @@ class MypageViewController: UIViewController {
             
             self.view.addSubview(imageBag)
             
-            // 小数点以下２桁のみ表示
-            labelX.text = "x: ".appendingFormat("%.2f", newDx)
-            labelY.text = "y: ".appendingFormat("%.2f", newDy)
         }
         
         override func didReceiveMemoryWarning() {
@@ -101,11 +89,20 @@ class MypageViewController: UIViewController {
         case .ended:
             //imageBag.center = CGPoint(x:200, y:462)
             UIView.animate(withDuration: 1.0, delay: 0.0, animations: {
-                self.imageBag.center.y -= 500.0
+                self.imageBag.center.y -= 600.0
             }, completion: nil)
         default:
             break
         }
         
+    }
+    var tap = 0
+    @IBAction func tapRaita(_ sender: Any) {
+        tap += 1
+        if tap == 1{
+            
+        }else if tap == 2{
+            
+        }
     }
 }

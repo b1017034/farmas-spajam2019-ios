@@ -10,6 +10,14 @@
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
 		3744036E2286B78700B68037 /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3744036D2286B78600B68037 /* icon.jpeg */; };
 		37440378228701D000B68037 /* tree.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 37440377228701D000B68037 /* tree.PNG */; };
+		37440383228724D200B68037 /* burn.png in Resources */ = {isa = PBXBuildFile; fileRef = 37440382228724D200B68037 /* burn.png */; };
+		374403852287285A00B68037 /* honoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 374403842287285A00B68037 /* honoo.png */; };
+		3744038722872ACF00B68037 /* raita.png in Resources */ = {isa = PBXBuildFile; fileRef = 3744038622872ACF00B68037 /* raita.png */; };
+		37440389228732DD00B68037 /* treeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37440388228732DD00B68037 /* treeView.swift */; };
+		3744038B2287330400B68037 /* treeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3744038A2287330400B68037 /* treeView.xib */; };
+		3744038E2287368900B68037 /* burn.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3744038C2287368900B68037 /* burn.sks */; };
+		3744038F2287368900B68037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3744038D2287368900B68037 /* Assets.xcassets */; };
+		374403912287372E00B68037 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374403902287372E00B68037 /* player.swift */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -50,6 +58,14 @@
 /* Begin PBXFileReference section */
 		3744036D2286B78600B68037 /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpeg; sourceTree = "<group>"; };
 		37440377228701D000B68037 /* tree.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.PNG; sourceTree = "<group>"; };
+		37440382228724D200B68037 /* burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burn.png; sourceTree = "<group>"; };
+		374403842287285A00B68037 /* honoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honoo.png; sourceTree = "<group>"; };
+		3744038622872ACF00B68037 /* raita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raita.png; sourceTree = "<group>"; };
+		37440388228732DD00B68037 /* treeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeView.swift; sourceTree = "<group>"; };
+		3744038A2287330400B68037 /* treeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = treeView.xib; sourceTree = "<group>"; };
+		3744038C2287368900B68037 /* burn.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = burn.sks; sourceTree = "<group>"; };
+		3744038D2287368900B68037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		374403902287372E00B68037 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -183,8 +199,16 @@
 			isa = PBXGroup;
 			children = (
 				37440377228701D000B68037 /* tree.PNG */,
+				37440382228724D200B68037 /* burn.png */,
+				374403842287285A00B68037 /* honoo.png */,
+				3744038622872ACF00B68037 /* raita.png */,
 				413025762286B08C0010453B /* Mypage.storyboard */,
 				413025822286B11C0010453B /* MypageViewController.swift */,
+				37440388228732DD00B68037 /* treeView.swift */,
+				3744038A2287330400B68037 /* treeView.xib */,
+				3744038C2287368900B68037 /* burn.sks */,
+				3744038D2287368900B68037 /* Assets.xcassets */,
+				374403902287372E00B68037 /* player.swift */,
 			);
 			path = Mypage;
 			sourceTree = "<group>";
@@ -340,13 +364,19 @@
 			files = (
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
+				3744038E2287368900B68037 /* burn.sks in Resources */,
 				37440378228701D000B68037 /* tree.PNG in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
+				37440383228724D200B68037 /* burn.png in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
+				3744038722872ACF00B68037 /* raita.png in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
+				3744038B2287330400B68037 /* treeView.xib in Resources */,
+				374403852287285A00B68037 /* honoo.png in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
+				3744038F2287368900B68037 /* Assets.xcassets in Resources */,
 				3744036E2286B78700B68037 /* icon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +492,8 @@
 				4130257B2286B0D10010453B /* PostViewController.swift in Sources */,
 				4130253C228559340010453B /* ViewController.swift in Sources */,
 				413025812286B1080010453B /* OnsenViewController.swift in Sources */,
+				374403912287372E00B68037 /* player.swift in Sources */,
+				37440389228732DD00B68037 /* treeView.swift in Sources */,
 				4130253A228559340010453B /* AppDelegate.swift in Sources */,
 				413025852286B1280010453B /* TimelineViewController.swift in Sources */,
 			);
