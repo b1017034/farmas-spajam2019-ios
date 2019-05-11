@@ -39,7 +39,7 @@
                                     <constraint firstAttribute="height" constant="366" id="l0V-PY-gnJ"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="何を愚痴る・・・？？" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0B3-bU-TRz">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="何を愚痴る・・・？？" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwT-BF-h94">
                                 <rect key="frame" x="93.5" y="322.5" width="188" height="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -53,14 +53,14 @@
                             <constraint firstItem="ezC-hJ-b4J" firstAttribute="leading" secondItem="Oli-dc-1Hu" secondAttribute="leading" constant="40" id="D7L-ZN-T3X"/>
                             <constraint firstItem="SHl-v7-Ui4" firstAttribute="centerX" secondItem="Lld-7b-C1t" secondAttribute="centerX" id="ITE-A0-QgT"/>
                             <constraint firstItem="SHl-v7-Ui4" firstAttribute="centerY" secondItem="Lld-7b-C1t" secondAttribute="centerY" id="LKP-QP-p3P"/>
+                            <constraint firstItem="nwT-BF-h94" firstAttribute="centerX" secondItem="Lld-7b-C1t" secondAttribute="centerX" id="X8l-rE-pVx"/>
                             <constraint firstItem="Oli-dc-1Hu" firstAttribute="trailing" secondItem="iX0-Oc-KkK" secondAttribute="trailing" constant="40" id="bUT-mz-ZdP"/>
-                            <constraint firstItem="0B3-bU-TRz" firstAttribute="centerX" secondItem="Lld-7b-C1t" secondAttribute="centerX" id="bjE-tv-Wll"/>
-                            <constraint firstItem="0B3-bU-TRz" firstAttribute="centerY" secondItem="Lld-7b-C1t" secondAttribute="centerY" id="z1I-2o-304"/>
+                            <constraint firstItem="nwT-BF-h94" firstAttribute="centerY" secondItem="Lld-7b-C1t" secondAttribute="centerY" id="pmJ-Hn-e8Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Oli-dc-1Hu"/>
                     </view>
                     <connections>
-                        <outlet property="input_text" destination="0B3-bU-TRz" id="6Lq-wK-g4O"/>
+                        <outlet property="input_text" destination="nwT-BF-h94" id="TkL-gU-d2A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uu-B2-B35" userLabel="First Responder" sceneMemberID="firstResponder"/>

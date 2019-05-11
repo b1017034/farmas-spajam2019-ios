@@ -16,7 +16,7 @@ class PostViewController: UIViewController, UITextFieldDelegate {
     
     //投稿ボタン###############################################################################
     @IBAction func toPost(_ sender: Any) {
-        //textFieldから文字を取得
+        //textViewから文字を取得
         input_textString = input_text.text!
         
         //textFieldの中身をクリア
@@ -55,6 +55,7 @@ class PostViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         //textFieldの情報を受け取るためのdelegateを設定
         input_text.delegate = self
+        view.backgroundColor = UIColor.init(red: 74/255, green: 207/255, blue: 172/255, alpha: 100/100)
     }
     
     //「改行」や「Return」などのキーを押したときに呼ばれる#################################
