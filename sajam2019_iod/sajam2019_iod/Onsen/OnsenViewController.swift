@@ -9,24 +9,31 @@ import UIKit
 
 class OnsenViewController: UIViewController {
     
-    var fire: Int = 2
+    var fire: Int = 1
+
+    @IBOutlet weak var onsenImages: UIImageView!
     
-    @IBOutlet weak var smokeImage: UIImageView!
+    //var img1 = UIImage(named:"IMG_2614.PNG")!
+    //var img2 = UIImage(named:"IMG_2615.PNG")!
+    //var img3 = UIImage(named:"IMG_2616.PNG")!
     
-    var img1 = UIImage(named:"IMG_2614.PNG")!
-    var img2 = UIImage(named:"IMG_2615.PNG")!
-    var img3 = UIImage(named:"IMG_2616.PNG")!
+    var img1 = UIImage(named:"IMG_2618.PNG")!
+    var img2 = UIImage(named:"IMG_2627.PNG")!
+    var img3 = UIImage(named:"IMG_2624.PNG")!
+    var img4 = UIImage(named:"IMG_2626.PNG")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-       if fire < 1 {
-            smokeImage.image = img1
+        if fire == 0 {
+            onsenImages.image = img1
         } else if fire < 2 {
-            smokeImage.image = img2
+            onsenImages.image = img2
+        } else if fire < 4 {
+            onsenImages.image = img3
         } else {
-            smokeImage.image = img3
+            onsenImages.image = img4
         }
     }
     
