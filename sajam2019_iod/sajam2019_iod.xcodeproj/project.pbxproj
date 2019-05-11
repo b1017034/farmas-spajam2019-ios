@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
+		1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462E2287303B000495C3 /* IMG_2626.PNG */; };
+		1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A462F2287305B000495C3 /* IMG_2627.PNG */; };
+		1C5A46342287305C000495C3 /* IMG_2624.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A46302287305C000495C3 /* IMG_2624.PNG */; };
+		1C5A46352287305C000495C3 /* IMG_2618.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A46312287305C000495C3 /* IMG_2618.PNG */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -48,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5A462E2287303B000495C3 /* IMG_2626.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2626.PNG; path = ../../../../../../../Downloads/IMG_2626.PNG; sourceTree = "<group>"; };
+		1C5A462F2287305B000495C3 /* IMG_2627.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2627.PNG; path = ../../../../../../../Downloads/IMG_2627.PNG; sourceTree = "<group>"; };
+		1C5A46302287305C000495C3 /* IMG_2624.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2624.PNG; path = ../../../../../../../Downloads/IMG_2624.PNG; sourceTree = "<group>"; };
+		1C5A46312287305C000495C3 /* IMG_2618.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2618.PNG; path = ../../../../../../../Downloads/IMG_2618.PNG; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +202,10 @@
 			children = (
 				413025742286B0810010453B /* Onsen.storyboard */,
 				413025802286B1080010453B /* OnsenViewController.swift */,
+				1C5A46312287305C000495C3 /* IMG_2618.PNG */,
+				1C5A46302287305C000495C3 /* IMG_2624.PNG */,
+				1C5A462E2287303B000495C3 /* IMG_2626.PNG */,
+				1C5A462F2287305B000495C3 /* IMG_2627.PNG */,
 			);
 			path = Onsen;
 			sourceTree = "<group>";
@@ -338,12 +350,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */,
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
+				1C5A46322287305C000495C3 /* IMG_2626.PNG in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
+				1C5A46352287305C000495C3 /* IMG_2618.PNG in Resources */,
+				1C5A46342287305C000495C3 /* IMG_2624.PNG in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
 				4130258B2286C94A0010453B /* GutiView.xib in Resources */,

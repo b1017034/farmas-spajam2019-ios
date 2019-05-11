@@ -1,29 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0yh-tj-gYT">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0yh-tj-gYT">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Onsen View Controller-->
         <scene sceneID="RV9-xn-BcX">
             <objects>
-                <viewController id="0yh-tj-gYT" sceneMemberID="viewController">
+                <viewController id="0yh-tj-gYT" customClass="OnsenViewController" customModule="sajam2019_iod" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vk5-pJ-QjR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdX-cu-Ob9">
+                                <rect key="frame" x="274" y="692" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="5Ac-kp-Ckc"/>
+                                    <constraint firstAttribute="height" constant="50" id="NLU-yr-mpQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="タイムライン"/>
+                                <connections>
+                                    <action selector="timelineButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="rbO-Ri-weq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43N-XP-ipQ">
+                                <rect key="frame" x="324" y="64" width="60" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="sN9-DC-X3F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="投稿"/>
+                                <connections>
+                                    <action selector="postButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="n9z-a2-BZ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7S-rG-rBf">
+                                <rect key="frame" x="40" y="692" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="DLr-wi-71J"/>
+                                    <constraint firstAttribute="height" constant="50" id="vzj-St-baw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="マイページ"/>
+                                <connections>
+                                    <action selector="mypageButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="EtK-LQ-cJs"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XYP-Rj-x3r">
+                                <rect key="frame" x="0.0" y="225" width="414" height="359"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="359" id="K4l-29-lus"/>
+                                    <constraint firstAttribute="width" secondItem="XYP-Rj-x3r" secondAttribute="height" multiplier="414:359" id="dQX-G9-4eC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="tdX-cu-Ob9" secondAttribute="trailing" constant="30" id="61X-26-U0x"/>
+                            <constraint firstItem="XYP-Rj-x3r" firstAttribute="top" secondItem="Vk5-pJ-QjR" secondAttribute="top" constant="225" id="GSb-4W-b8V"/>
+                            <constraint firstAttribute="trailing" secondItem="XYP-Rj-x3r" secondAttribute="trailing" id="Iaq-VP-Z81"/>
+                            <constraint firstItem="43N-XP-ipQ" firstAttribute="top" secondItem="u25-uw-n2M" secondAttribute="top" constant="20" id="K09-nz-cey"/>
+                            <constraint firstItem="43N-XP-ipQ" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" constant="324" id="Ke1-Gw-iow"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="43N-XP-ipQ" secondAttribute="trailing" constant="30" id="VDR-45-Ic7"/>
+                            <constraint firstItem="XYP-Rj-x3r" firstAttribute="leading" secondItem="Vk5-pJ-QjR" secondAttribute="leading" id="Vgk-6E-eYL"/>
+                            <constraint firstItem="t7S-rG-rBf" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" constant="40" id="Vm1-ED-MWr"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="bottom" secondItem="t7S-rG-rBf" secondAttribute="bottom" constant="120" id="dbR-hl-0cc"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="bottom" secondItem="tdX-cu-Ob9" secondAttribute="bottom" constant="120" id="jmF-GS-cRD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="u25-uw-n2M"/>
                     </view>
+                    <connections>
+                        <outlet property="onsenImages" destination="XYP-Rj-x3r" id="n4R-iM-B38"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ad0-6J-54y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-20" y="-27"/>
+            <point key="canvasLocation" x="-20.289855072463769" y="-27.455357142857142"/>
         </scene>
     </scenes>
 </document>
