@@ -22,7 +22,7 @@ class OnsenViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        if fire == 0 {
+        if fire < 0 {
             onsenImages.image = img1
         } else if fire == 1 {
             onsenImages.image = img2
