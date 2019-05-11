@@ -13,10 +13,10 @@ class OnsenViewController: UIViewController {
 
     @IBOutlet weak var onsenImages: UIImageView!
     
-    var img1 = UIImage(named:"IMG_2618.PNG")!
-    var img2 = UIImage(named:"IMG_2627.PNG")!
-    var img3 = UIImage(named:"IMG_2624.PNG")!
-    var img4 = UIImage(named:"IMG_2626.PNG")!
+    var img1 = UIImage(named:"onsenImage/IMG_2618.PNG")
+    var img2 = UIImage(named:"onsenImage/IMG_2627.PNG")
+    var img3 = UIImage(named:"onsenImage/IMG_2624.PNG")
+    var img4 = UIImage(named:"onsenImage/IMG_2626.PNG")
     
     override func viewDidLoad() {
         super.viewDidLoad()
