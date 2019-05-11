@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
+		1C5A463722875693000495C3 /* onsenImage in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A463622875693000495C3 /* onsenImage */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5A463622875693000495C3 /* onsenImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = onsenImage; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			children = (
 				413025742286B0810010453B /* Onsen.storyboard */,
 				413025802286B1080010453B /* OnsenViewController.swift */,
+				1C5A463622875693000495C3 /* onsenImage */,
 			);
 			path = Onsen;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			files = (
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
+				1C5A463722875693000495C3 /* onsenImage in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
