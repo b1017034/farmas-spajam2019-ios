@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E98AFC18FA7449E06422AEE /* Pods_sajam2019_iodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A621A947C29A248F2E504BC3 /* Pods_sajam2019_iodTests.framework */; };
+		1C5A463722875693000495C3 /* onsenImage in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A463622875693000495C3 /* onsenImage */; };
 		3744036E2286B78700B68037 /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3744036D2286B78600B68037 /* icon.jpeg */; };
 		37440378228701D000B68037 /* tree.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 37440377228701D000B68037 /* tree.PNG */; };
 		37440383228724D200B68037 /* burn.png in Resources */ = {isa = PBXBuildFile; fileRef = 37440382228724D200B68037 /* burn.png */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5A463622875693000495C3 /* onsenImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = onsenImage; sourceTree = "<group>"; };
 		3744036D2286B78600B68037 /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpeg; sourceTree = "<group>"; };
 		37440377228701D000B68037 /* tree.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.PNG; sourceTree = "<group>"; };
 		37440382228724D200B68037 /* burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burn.png; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 			children = (
 				413025742286B0810010453B /* Onsen.storyboard */,
 				413025802286B1080010453B /* OnsenViewController.swift */,
+				1C5A463622875693000495C3 /* onsenImage */,
 				1C5A46312287305C000495C3 /* IMG_2618.PNG */,
 				1C5A46302287305C000495C3 /* IMG_2624.PNG */,
 				1C5A462E2287303B000495C3 /* IMG_2626.PNG */,
@@ -381,6 +384,7 @@
 				1C5A46332287305C000495C3 /* IMG_2627.PNG in Resources */,
 				41302544228559360010453B /* LaunchScreen.storyboard in Resources */,
 				413025792286B0980010453B /* Timeline.storyboard in Resources */,
+				1C5A463722875693000495C3 /* onsenImage in Resources */,
 				3744038E2287368900B68037 /* burn.sks in Resources */,
 				37440378228701D000B68037 /* tree.PNG in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
