@@ -23,9 +23,9 @@ class MypageViewController: UIViewController {
             let screenHeight:CGFloat = view.frame.size.height
             
             // ハンドバッグの画像を設定
-            imageBag.image = UIImage(named: "icon")
+            imageBag.image = UIImage(named: "tree.PNG")
             // 画像のフレームを設定
-            imageBag.frame = CGRect(x:0, y:0, width:128, height:128)
+            imageBag.frame = CGRect(x:0, y:0, width:300, height:350)
             
             // 画像をスクリーン中央に設定
             imageBag.center = CGPoint(x:screenWidth/2, y:screenHeight/2)
