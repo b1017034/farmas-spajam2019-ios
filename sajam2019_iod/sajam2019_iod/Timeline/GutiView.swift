@@ -19,5 +19,6 @@ class GutiView: UIView {
         woodImageView.sendSubviewToBack(superview!)
         
         self.backgroundColor = UIColor.init(hex: "4ACFAC")
+        textLabel.numberOfLines=0
     }
 }

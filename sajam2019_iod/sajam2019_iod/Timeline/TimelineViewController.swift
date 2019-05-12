@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class TimelineViewController: UIViewController {
 
@@ -38,12 +39,16 @@ class TimelineViewController: UIViewController {
     
     @IBOutlet var honouImage: UIButton!
     var gutiViews: [GutiView] = []
+    var items: [String] = []
+    var keepAlive = true
+    let runLoop = RunLoop.current
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.scrollView.horizaontalDelegate = self
         honouImage.isHidden = true
         // Do any additional setup after loading the view.
+        getData()
     }
     /*
     // MARK: - Navigation
@@ -54,6 +59,24 @@ class TimelineViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    func getData(){
+        let ref = Database.database().reference()
+        //observeイベント
+        ref.observe(.value, with: {(snapShots) in
+            for snapShot in snapShots.children {
+                let child = snapShot as! DataSnapshot
+                for value in child.children{
+                    let item = value as! DataSnapshot
+                    let dict = item.value as! NSDictionary
+                    self.items.append(dict["text"] as! String)
+                }
+            }
+            self.keepAlive = false
+        })
+        while self.keepAlive && self.runLoop.run(mode: RunLoop.Mode.default, before:NSDate(timeIntervalSinceNow: 0.1) as Date) {
+        }
+        print(self.items.count)
+    }
 }
 
 extension TimelineViewController: horizontalScrollViewDelegate{
@@ -63,13 +86,13 @@ extension TimelineViewController: horizontalScrollViewDelegate{
         gutiViews[count].frame.origin.y = scrollView.frame.origin.y
         let cgx: CGFloat = scrollView.frame.origin.x
         gutiViews[count].frame.origin.x = cgx + CGFloat(count) * scrollView.frame.width
-        gutiViews[count].textLabel.text = "殺すぞ"
+        gutiViews[count].textLabel.text = self.items[count]
         scrollBackView.addSubview(gutiViews[count])
         print("gutiview: \(gutiViews[count].frame) \(count)")
     }
     
     func numberOfSection() -> Int {
-        return 3
+        return self.items.count
     }
     
     func Color() -> String {
