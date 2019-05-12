@@ -21,7 +21,7 @@ class MypageViewController: UIViewController {
             let screenHeight:CGFloat = view.frame.size.height
             
             // ハンドバッグの画像を設定
-            imageBag.image = UIImage(named: "tree.PNG")
+            imageBag.image = UIImage(named: "demomaruta.png")
             // 画像のフレームを設定
             imageBag.frame = CGRect(x:0, y:0, width:300, height:350)
             
@@ -96,13 +96,10 @@ class MypageViewController: UIViewController {
         }
         
     }
-    var tap = 0
-    @IBAction func tapRaita(_ sender: Any) {
-        tap += 1
-        if tap == 1{
-            
-        }else if tap == 2{
-            
-        }
+    @IBAction func tap(_ sender: UIButton) {
+        let sb = UIStoryboard(name: "Timeline", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
     }
+    
 }
