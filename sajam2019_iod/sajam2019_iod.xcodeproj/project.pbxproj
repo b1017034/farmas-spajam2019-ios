@@ -13,10 +13,11 @@
 		37440378228701D000B68037 /* tree.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 37440377228701D000B68037 /* tree.PNG */; };
 		37440383228724D200B68037 /* burn.png in Resources */ = {isa = PBXBuildFile; fileRef = 37440382228724D200B68037 /* burn.png */; };
 		374403852287285A00B68037 /* honoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 374403842287285A00B68037 /* honoo.png */; };
-		3744038722872ACF00B68037 /* raita.png in Resources */ = {isa = PBXBuildFile; fileRef = 3744038622872ACF00B68037 /* raita.png */; };
 		3744038E2287368900B68037 /* burn.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3744038C2287368900B68037 /* burn.sks */; };
 		3744038F2287368900B68037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3744038D2287368900B68037 /* Assets.xcassets */; };
 		374403912287372E00B68037 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374403902287372E00B68037 /* player.swift */; };
+		374403932287AD9F00B68037 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 374403922287AD9F00B68037 /* clock.png */; };
+		374403952287AEA000B68037 /* demomaruta.png in Resources */ = {isa = PBXBuildFile; fileRef = 374403942287AEA000B68037 /* demomaruta.png */; };
 		4130253A228559340010453B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41302539228559340010453B /* AppDelegate.swift */; };
 		4130253C228559340010453B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130253B228559340010453B /* ViewController.swift */; };
 		4130253F228559340010453B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130253D228559340010453B /* Main.storyboard */; };
@@ -63,10 +64,11 @@
 		37440377228701D000B68037 /* tree.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.PNG; sourceTree = "<group>"; };
 		37440382228724D200B68037 /* burn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burn.png; sourceTree = "<group>"; };
 		374403842287285A00B68037 /* honoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honoo.png; sourceTree = "<group>"; };
-		3744038622872ACF00B68037 /* raita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raita.png; sourceTree = "<group>"; };
 		3744038C2287368900B68037 /* burn.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = burn.sks; sourceTree = "<group>"; };
 		3744038D2287368900B68037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374403902287372E00B68037 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		374403922287AD9F00B68037 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		374403942287AEA000B68037 /* demomaruta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demomaruta.png; sourceTree = "<group>"; };
 		41302536228559340010453B /* sajam2019_iod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sajam2019_iod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41302539228559340010453B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4130253B228559340010453B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -208,7 +210,8 @@
 				37440377228701D000B68037 /* tree.PNG */,
 				37440382228724D200B68037 /* burn.png */,
 				374403842287285A00B68037 /* honoo.png */,
-				3744038622872ACF00B68037 /* raita.png */,
+				374403922287AD9F00B68037 /* clock.png */,
+				374403942287AEA000B68037 /* demomaruta.png */,
 				413025762286B08C0010453B /* Mypage.storyboard */,
 				413025822286B11C0010453B /* MypageViewController.swift */,
 				3744038C2287368900B68037 /* burn.sks */,
@@ -374,14 +377,15 @@
 				3744038E2287368900B68037 /* burn.sks in Resources */,
 				37440378228701D000B68037 /* tree.PNG in Resources */,
 				413025772286B08C0010453B /* Mypage.storyboard in Resources */,
+				374403932287AD9F00B68037 /* clock.png in Resources */,
 				37440383228724D200B68037 /* burn.png in Resources */,
 				4130256C2286ACE70010453B /* GoogleService-Info.plist in Resources */,
 				413025732286B0720010453B /* post.storyboard in Resources */,
 				41302541228559360010453B /* Assets.xcassets in Resources */,
-				3744038722872ACF00B68037 /* raita.png in Resources */,
 				413025752286B0810010453B /* Onsen.storyboard in Resources */,
 				374403852287285A00B68037 /* honoo.png in Resources */,
 				4130253F228559340010453B /* Main.storyboard in Resources */,
+				374403952287AEA000B68037 /* demomaruta.png in Resources */,
 				3744038F2287368900B68037 /* Assets.xcassets in Resources */,
 				3744036E2286B78700B68037 /* icon.jpeg in Resources */,
 				4130258B2286C94A0010453B /* GutiView.xib in Resources */,

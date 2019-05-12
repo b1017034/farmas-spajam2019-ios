@@ -26,12 +26,12 @@
                                     <outletCollection property="gestureRecognizers" destination="Aya-iH-KZp" appends="YES" id="oLG-g3-KH5"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXM-d3-Aid">
-                                <rect key="frame" x="129" y="738" width="157" height="124"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PZ-BZ-eXL">
+                                <rect key="frame" x="37" y="738" width="90" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="raita.png"/>
+                                <state key="normal" image="clock.png"/>
                                 <connections>
-                                    <action selector="tapRaita:" destination="2A0-di-Efs" eventType="touchUpInside" id="8yP-Q7-Ytv"/>
+                                    <action selector="tap:" destination="2A0-di-Efs" eventType="touchUpInside" id="PDi-vc-na9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,6 +53,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="raita.png" width="480" height="480"/>
+        <image name="clock.png" width="800" height="800"/>
     </resources>
 </document>
