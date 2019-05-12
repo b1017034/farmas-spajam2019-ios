@@ -9,7 +9,7 @@ import UIKit
 
 class OnsenViewController: UIViewController {
     
-    var fire: Int = 2
+    var fire: Int = 3
 
     @IBOutlet weak var onsenImages: UIImageView!
     
@@ -34,10 +34,19 @@ class OnsenViewController: UIViewController {
     }
     
     @IBAction func postButton(_ sender: Any) {
+        /*let sb = UIStoryboard(name: "Post", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)*/
     }
     @IBAction func mypageButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "Mypage", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
     }
     @IBAction func timelineButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "Timeline", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
     }
     
     /*
