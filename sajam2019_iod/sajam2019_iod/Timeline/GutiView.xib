@@ -25,6 +25,18 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burn.png" translatesAutoresizingMaskIntoConstraints="NO" id="HsP-fK-8lk">
+                    <rect key="frame" x="0.0" y="9" width="343" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burn.png" translatesAutoresizingMaskIntoConstraints="NO" id="GLL-Am-KPt">
+                    <rect key="frame" x="16" y="88" width="343" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burn.png" translatesAutoresizingMaskIntoConstraints="NO" id="sVz-pv-55j">
+                    <rect key="frame" x="16" y="160" width="343" height="208"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.29019607843137252" green="0.81176470588235294" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -39,6 +51,9 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="burn1" destination="sVz-pv-55j" id="1xl-ei-2rG"/>
+                <outlet property="burn2" destination="GLL-Am-KPt" id="sC1-pL-DxF"/>
+                <outlet property="burn3" destination="HsP-fK-8lk" id="dOq-4a-SYP"/>
                 <outlet property="textLabel" destination="43A-Xq-A9M" id="vvJ-3K-1sM"/>
                 <outlet property="woodImageView" destination="JKV-1l-F3O" id="s9L-9z-57X"/>
             </connections>
@@ -46,6 +61,7 @@
         </view>
     </objects>
     <resources>
+        <image name="burn.png" width="640" height="640"/>
         <image name="maruta" width="458" height="669"/>
     </resources>
 </document>

@@ -19,6 +19,11 @@ class TimelineViewController: UIViewController {
         let vc = sb.instantiateInitialViewController()
         self.present(vc!, animated: true, completion: nil)
     }
+    @IBAction func toPostButton(_ sender: Any) {
+        let sb = UIStoryboard(name: "post", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        self.present(vc!, animated: true, completion: nil)
+    }
     
     @IBAction func toOnsenButton(_ sender: Any) {
         let sb = UIStoryboard(name: "Onsen", bundle: nil)
@@ -27,6 +32,7 @@ class TimelineViewController: UIViewController {
     }
     @IBAction func touchDownLighter(_ sender: Any) {
         honouImage.isHidden = false
+        gutiViews[currentPage].setImage()
     }
     
     @IBAction func touchUpInsideLiter(_ sender: Any) {
@@ -35,12 +41,14 @@ class TimelineViewController: UIViewController {
     
     @IBAction func touchUpOutsideLighter(_ sender: Any) {
         honouImage.isHidden = true
+        
     }
     
     @IBOutlet var honouImage: UIButton!
     var gutiViews: [GutiView] = []
     var items: [String] = []
     var keepAlive = true
+    var currentPage = 0
     let runLoop = RunLoop.current
     
     override func viewDidLoad() {
@@ -92,6 +100,7 @@ extension TimelineViewController: horizontalScrollViewDelegate{
     }
     
     func numberOfSection() -> Int {
+        pageControl.numberOfPages = items.count
         return self.items.count
     }
     
@@ -101,6 +110,7 @@ extension TimelineViewController: horizontalScrollViewDelegate{
     
     func horizontalScrollViewDidScroll(_ horizantalScrollView: horizontalScrollView) {
         pageControl.currentPage = Int(scrollView.contentOffset.x / scrollView.frame.size.width)
+        self.currentPage = pageControl.currentPage
     }
 
 }
