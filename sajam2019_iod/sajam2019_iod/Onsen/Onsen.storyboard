@@ -18,27 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btj-j6-ySA">
-                                <rect key="frame" x="260" y="731" width="79" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btj-j6-ySA">
+                                <rect key="frame" x="277" y="723" width="92" height="87"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="jYn-d9-dBF"/>
+                                    <constraint firstAttribute="height" constant="87" id="Ef2-ms-Cq0"/>
+                                    <constraint firstAttribute="width" constant="92" id="qcE-Ef-FWZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="timeLine"/>
+                                <state key="normal" title="timeLine" image="clock-2"/>
                                 <connections>
                                     <action selector="timelineButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="SRF-Ye-paS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfX-sq-JBu">
-                                <rect key="frame" x="294" y="84" width="80" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="Mlg-gz-hr2"/>
-                                    <constraint firstAttribute="height" constant="50" id="mhS-bC-4g0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Post"/>
-                                <connections>
-                                    <action selector="postButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="5wI-O9-wO8"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cIU-8o-HGe">
@@ -47,25 +35,41 @@
                                     <constraint firstAttribute="height" constant="371" id="CUA-A2-sth"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDI-u3-S0J">
-                                <rect key="frame" x="66" y="753" width="100" height="26"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="myPage"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDI-u3-S0J">
+                                <rect key="frame" x="36" y="713" width="108" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Fla-aA-JX6"/>
+                                    <constraint firstAttribute="width" constant="108" id="qOw-Zz-ohY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="myPage" image="myoage"/>
                                 <connections>
                                     <action selector="mypageButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="9is-5r-Zj9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfX-sq-JBu">
+                                <rect key="frame" x="314" y="76" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ndx-Sn-hkZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="投稿"/>
+                                <connections>
+                                    <action selector="postButton:" destination="0yh-tj-gYT" eventType="touchUpInside" id="5wI-O9-wO8"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.48176360130310059" green="0.8286927342414856" blue="0.73332589864730835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="WfX-sq-JBu" secondAttribute="trailing" constant="40" id="0CN-h0-Xi9"/>
-                            <constraint firstItem="WfX-sq-JBu" firstAttribute="top" secondItem="u25-uw-n2M" secondAttribute="top" constant="40" id="9iK-6y-cPz"/>
+                            <constraint firstItem="VDI-u3-S0J" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" constant="36" id="8Fe-kP-DVO"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="Btj-j6-ySA" secondAttribute="trailing" constant="45" id="8S5-Zr-CAL"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="bottom" secondItem="Btj-j6-ySA" secondAttribute="bottom" constant="52" id="BQr-6g-1c2"/>
+                            <constraint firstItem="WfX-sq-JBu" firstAttribute="top" secondItem="u25-uw-n2M" secondAttribute="top" constant="32" id="Bl5-dF-Fse"/>
                             <constraint firstItem="cIU-8o-HGe" firstAttribute="centerX" secondItem="Vk5-pJ-QjR" secondAttribute="centerX" id="Stx-x7-oZH"/>
-                            <constraint firstItem="u25-uw-n2M" firstAttribute="trailing" secondItem="Btj-j6-ySA" secondAttribute="trailing" constant="75" id="UeA-8k-E8S"/>
-                            <constraint firstItem="u25-uw-n2M" firstAttribute="bottom" secondItem="Btj-j6-ySA" secondAttribute="bottom" constant="61" id="b5i-mR-yFj"/>
-                            <constraint firstItem="cIU-8o-HGe" firstAttribute="top" secondItem="WfX-sq-JBu" secondAttribute="bottom" constant="76" id="dcW-he-HQh"/>
-                            <constraint firstItem="Btj-j6-ySA" firstAttribute="leading" secondItem="VDI-u3-S0J" secondAttribute="trailing" constant="94" id="f4W-Dm-b1h"/>
-                            <constraint firstItem="Btj-j6-ySA" firstAttribute="baseline" secondItem="VDI-u3-S0J" secondAttribute="baseline" id="h4V-JZ-jAY"/>
+                            <constraint firstItem="u25-uw-n2M" firstAttribute="bottom" secondItem="VDI-u3-S0J" secondAttribute="bottom" constant="49" id="eCN-BV-eEe"/>
+                            <constraint firstItem="cIU-8o-HGe" firstAttribute="top" secondItem="WfX-sq-JBu" secondAttribute="bottom" constant="84" id="g0v-Oy-pjg"/>
+                            <constraint firstItem="WfX-sq-JBu" firstAttribute="trailing" secondItem="Vk5-pJ-QjR" secondAttribute="trailingMargin" id="og9-y5-2Pf"/>
+                            <constraint firstItem="WfX-sq-JBu" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" constant="314" id="rgk-yp-wKR"/>
                             <constraint firstItem="cIU-8o-HGe" firstAttribute="leading" secondItem="u25-uw-n2M" secondAttribute="leading" constant="4" id="xbZ-tB-BAl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="u25-uw-n2M"/>
@@ -79,4 +83,8 @@
             <point key="canvasLocation" x="-20.289855072463769" y="-27.455357142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clock-2" width="800" height="800"/>
+        <image name="myoage" width="512" height="512"/>
+    </resources>
 </document>
