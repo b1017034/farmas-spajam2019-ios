@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class PostViewController: UIViewController, UITextFieldDelegate {
      //入力されたテキストの保存用変数
@@ -18,6 +19,7 @@ class PostViewController: UIViewController, UITextFieldDelegate {
     
     var post_id = ""
     
+    var ref: DatabaseReference!
     
     
     @IBOutlet weak var input_text: UITextField!
@@ -25,6 +27,7 @@ class PostViewController: UIViewController, UITextFieldDelegate {
     //投稿ボタン###############################################################################
     @IBAction func toPost(_ sender: Any) {
         //ユーザIDのuserdefaultsへの登録
+        ref = Database.database().reference()
         UserDefaults.standard.set(uuid, forKey: "user_id")
         
         //post_idを決める
@@ -32,6 +35,8 @@ class PostViewController: UIViewController, UITextFieldDelegate {
         
         //textViewから文字を取得
         input_textString = input_text.text!
+        
+        self.ref.child(uuid).child(post_id).setValue(["text": input_textString])
         
         //textFieldの中身をクリア
         input_text.text = "何を愚痴る・・・？？"
